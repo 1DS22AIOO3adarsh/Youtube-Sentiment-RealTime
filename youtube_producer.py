@@ -1,11 +1,16 @@
 from kafka import KafkaProducer
 import json
 from googleapiclient.discovery import build
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+
 
 # Your YouTube API key
-API_KEY = 'AIzaSyDJlD03qmG63b7vXbbwRa07VLMBXzHJD_8'
-VIDEO_ID = '7ARBJQn6QkM'
-
+API_KEY = os.getenv("YOUTUBE_API_KEY")
+VIDEO_ID = os.getenv("VIDEO_ID") 
 # Initialize YouTube API client
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 

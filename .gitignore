@@ -92,3 +92,5 @@ logs/
 
 # Kafka data (if stored locally)
 tmp/
+
+.env
