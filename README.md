@@ -1,8 +1,3 @@
-Absolutely — let’s update the README to include **Google Cloud Console usage** (if you used it to manage or deploy services, for example, Kafka or VM-based hosting), and add your live Streamlit app link at the end.
-
-Here’s the **final, polished README** (full copy-ready):
-
----
 
 # YouTube Real-Time Sentiment Analysis Pipeline
 
