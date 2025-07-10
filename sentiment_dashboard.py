@@ -4,14 +4,14 @@ import psycopg2
 import plotly.express as px
 from collections import Counter
 
-# PostgreSQL connection info
 conn = psycopg2.connect(
-    host="localhost",
+    host="db.auxvvnieyzkijcjfaosg.supabase.co",
     port=5432,
-    database="youtube_sentiment",
-    user="postgres",           # <-- change if needed
-    password="1234"            # <-- your pgAdmin password
+    database="postgres",
+    user="postgres",
+    password="cvU8Sdk8eUh86zJR"
 )
+
 
 # Fetch data
 @st.cache_data(ttl=300)
