@@ -94,3 +94,5 @@ logs/
 tmp/
 
 .env
+
+.devcontainer.json/
