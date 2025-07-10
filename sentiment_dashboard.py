@@ -6,7 +6,7 @@ from collections import Counter
 
 conn = psycopg2.connect(
     host="db.auxvvnieyzkijcjfaosg.supabase.co",
-    port=6543,
+    port=5432,
     database="postgres",
     user="postgres",
     password="cvU8Sdk8eUh86zJR"
