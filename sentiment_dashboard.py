@@ -5,7 +5,17 @@ import plotly.express as px
 from dotenv import load_dotenv
 import os
 
+<<<<<<< HEAD
 load_dotenv()
+=======
+conn = psycopg2.connect(
+    host="db.auxvvnieyzkijcjfaosg.supabase.co",
+    port=6543,
+    database="postgres",
+    user="postgres",
+    password="cvU8Sdk8eUh86zJR"
+)
+>>>>>>> fd20daa69266378ff341d115dc1811e181fe682b
 
 # Your Supabase project info
 url = os.getenv("SUPABASE_URL")
